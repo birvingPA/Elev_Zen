@@ -7,7 +7,7 @@ class HomeComponent extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ isReady: true })
-    }, 100)
+    }, 50)
   }
   render() {
     return (
