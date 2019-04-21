@@ -1,12 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ProductPage from "./productPage/productPage"
+import ProductInfo from "./productInfo/productInfo"
 
 const SecondPage = () => (
   <Layout>
     <SEO title="product" />
-    <ProductPage />
+    <ProductInfo />
 
     <div style={{ height: 7000 }} />
   </Layout>

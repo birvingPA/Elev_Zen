@@ -1,7 +1,7 @@
 import * as React from "react"
 import { HeaderText } from "../../components/common/uicomponents"
 import { Nav, Navbar } from "react-bootstrap"
-const ProductPage = () => (
+const ProductInfo = () => (
   <React.Fragment>
     <div
       style={{
@@ -24,4 +24,4 @@ const ProductPage = () => (
   </React.Fragment>
 )
 
-export default ProductPage
+export default ProductInfo

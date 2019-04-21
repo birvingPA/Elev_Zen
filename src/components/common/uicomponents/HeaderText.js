@@ -12,7 +12,7 @@ class HeaderText extends React.Component {
       enter: {
         opacity: 1,
         y: 0,
-        delay: ({ charIndex }) => charIndex * 30,
+        delay: ({ charIndex }) => (charIndex + 1) * 30,
       },
     }
     const subHeaderTextAnimation = {
