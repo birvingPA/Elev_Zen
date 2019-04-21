@@ -1,8 +1,8 @@
 import * as React from "react"
-import { HeaderText } from "../common/uicomponents"
+import { HeaderText } from "../../components/common/uicomponents"
 import { Nav, Navbar } from "react-bootstrap"
 
-class ProductPage extends React.Component {
+export class ProductPage extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -28,4 +28,3 @@ class ProductPage extends React.Component {
     )
   }
 }
-export default ProductPage

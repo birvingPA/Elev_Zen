@@ -1,7 +1,7 @@
 import * as React from "react"
-import { HeaderText } from "../common/uicomponents"
+import { HeaderText } from "../../components/common/uicomponents"
 
-class Home extends React.Component {
+export class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -23,4 +23,3 @@ class Home extends React.Component {
     )
   }
 }
-export default Home
