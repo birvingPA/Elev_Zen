@@ -1,1 +1,3 @@
-export { ProductPage } from "./productPage"
+/**
+ * test
+ */
