@@ -118,5 +118,5 @@ class HomeComponent extends React.Component {
     )
   }
 }
-// const Home = () => <HomeComponent />
-export default HomeComponent
+const Home = () => <HomeComponent />
+export default Home
