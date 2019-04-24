@@ -1,6 +1,6 @@
 import * as React from "react"
 
-class InfoBoxesComponent extends React.Component {
+class InfoBoxes extends React.Component {
   render() {
     const {
       boxSize,
@@ -60,5 +60,4 @@ class InfoBoxesComponent extends React.Component {
     )
   }
 }
-const InfoBoxes = () => <InfoBoxesComponent />
 export default InfoBoxes

@@ -5,9 +5,8 @@ import {
   InfoBoxes,
   TextAndSideImage,
   RequestDemo,
-} from "../../components/common/uicomponents"
-// import RequestDemo from "../../components/common/uicomponents"
-import { InfoBoxContainer } from "./styled"
+} from "../common/uicomponents"
+import { InfoBoxContainer } from "../common/styled"
 import { FaDumbbell, FaClipboardList } from "react-icons/fa"
 
 class HomeComponent extends React.Component {

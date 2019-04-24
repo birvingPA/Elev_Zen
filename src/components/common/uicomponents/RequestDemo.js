@@ -2,7 +2,7 @@ import * as React from "react"
 import { RequestDemoBar, RequestDemoInput } from "../styled"
 import { Button } from "./"
 
-class RequestDemoComponent extends React.Component {
+class RequestDemo extends React.Component {
   render() {
     return (
       <RequestDemoBar>
@@ -12,6 +12,5 @@ class RequestDemoComponent extends React.Component {
     )
   }
 }
-const RequestDemo = () => <RequestDemoComponent />
 
 export default RequestDemo

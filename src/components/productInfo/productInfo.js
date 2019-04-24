@@ -1,5 +1,5 @@
 import * as React from "react"
-import { HeaderText } from "../../components/common/uicomponents"
+import { HeaderText } from "../common/uicomponents"
 import { Nav, Navbar } from "react-bootstrap"
 const ProductInfo = () => (
   <React.Fragment>

@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ProductInfo from "./productInfo/productInfo"
+import ProductInfo from "../components/productInfo/productInfo"
 
 const SecondPage = () => (
   <Layout>
