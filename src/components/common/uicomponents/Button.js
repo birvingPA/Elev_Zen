@@ -5,16 +5,22 @@ import { Button as BButton } from "../styled"
 
 class Button extends React.Component {
   render() {
-    const { children, onClick, color } = this.props
+    const { children, onClick, color, noAnimation } = this.props
     const customColor = {
       backgroundColor: color,
     }
     return (
-      <ClickAnimation>
-        <BButton style={customColor} onClick={() => onClick}>
-          {children}
-        </BButton>
-      </ClickAnimation>
+      <React.Fragment>
+        {!noAnimation ? (
+          <ClickAnimation style={customColor} onClick={() => onClick}>
+            {children}
+          </ClickAnimation>
+        ) : (
+          <BButton noAnimation style={customColor} onClick={() => onClick}>
+            {children}
+          </BButton>
+        )}
+      </React.Fragment>
     )
   }
 }

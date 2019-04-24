@@ -1,11 +1,8 @@
 export {
-  Button,
-  HeaderTextContainer,
-  HeaderTextComponent,
   RequestDemoBar,
   RequestDemoInput,
   DividerContainer,
   InfoBoxContainer,
-  TextAndImageRow,
   TextAndImageContainer,
-} from "./common"
+  TextAndImageRow,
+} from "./home"

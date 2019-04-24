@@ -1,2 +1,6 @@
 export { default as Button } from "./Button"
 export { default as HeaderText } from "./HeaderText"
+export { default as TextAndSideImage } from "./TextAndSideImage"
+export { default as InfoBoxes } from "./InfoBoxes"
+export { default as RequestDemo } from "./RequestDemo"
+export { default as DividerTextWithLogo } from "./DividerTextWithLogo"

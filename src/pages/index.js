@@ -10,7 +10,6 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Home />
 
-    <div style={{ height: 7000 }} />
     {/* <Image /> */}
   </Layout>
 )

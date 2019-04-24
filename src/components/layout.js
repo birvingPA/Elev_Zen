@@ -29,6 +29,7 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
 
         <Main>{children}</Main>
+
         <footer>© {new Date().getFullYear()}, ElevZen</footer>
       </>
     )}
