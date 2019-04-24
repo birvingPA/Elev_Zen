@@ -3,7 +3,7 @@ import { TextAndImageContainer, TextAndImageRow } from "../styled"
 import { Button } from "./"
 import { Col } from "react-bootstrap"
 
-export default class TextAndSideImage extends React.Component {
+class TextAndSideImage extends React.Component {
   render() {
     const { right } = this.props
     return (
@@ -68,3 +68,4 @@ export default class TextAndSideImage extends React.Component {
     )
   }
 }
+export default TextAndSideImage
